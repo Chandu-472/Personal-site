@@ -1,0 +1,40 @@
+body,
+html {
+  margin: 0;
+  padding: 10px;
+}
+
+img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+a {
+  color: black;
+}
+
+input {
+  display: block;
+  margin: 20px 0 0;
+  width: 160px;
+  box-sizing: border-box;
+  padding: 4px 8px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+::placeholder {
+  color: grey;
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: block;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 160px;
+}
